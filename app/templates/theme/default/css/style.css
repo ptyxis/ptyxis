@@ -1,0 +1,169 @@
+/* Space out content a bit */
+body {
+  padding-bottom: 20px;
+  background-image: url('../../../../../images/background.png');
+  background-position: left top;
+  background-color: #567caa;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 180%;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.comic-holder {
+    padding: 20px 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+
+.comic-holder img {
+    display: block;
+    margin: auto;
+}
+
+.archive-list tbody tr td {
+    border: none;
+}
+
+.container-content {
+    /*background-color: #ffffff;*/
+}
+
+.col-content {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.comic-nav-control {
+     padding: 0px;
+ }
+
+.comic-nav-control a {
+     display: block;
+     padding: 5px;
+     height: 50px;
+     width: 60px;
+     margin: 0px auto;
+     color: #ffffff;
+ }
+
+.archive a {
+    padding-top: 15px;
+}
+
+ .comic-col-top {
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+ }
+
+ .comic-col-bottom {
+    margin-top: 15px;
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+ }
+
+.comic-col-left .comic-detail-holder{
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    min-height: 300px;
+}
+
+.comic-col-right .comic-detail-holder {
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    min-height: 300px;
+}
+
+.comic-col-center {
+    padding-left: 0px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    min-height: 300px;
+}
+
+@media (min-width: 768px) {
+    .comic-col-left .comic-detail-holder{
+        margin-left: -15px;
+    }
+
+    .comic-col-right .comic-detail-holder {
+        margin-right: -15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .comic-col-left .comic-detail-holder {
+        margin-bottom: 5px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .comic-col-right .comic-detail-holder {
+        margin-top: 5px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+.comic-details {
+    padding-top: 20px;
+}
+
+.comic-details h1 {
+    font-size: 150%;
+    margin-top: 0px;
+}
+
+.social-share {
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.social-share a {
+    margin: 5px;
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+/* Custom page footer */
+.footer {
+  margin-top: 30px;
+  padding-top: 19px;
+  color: #ffffff;
+}

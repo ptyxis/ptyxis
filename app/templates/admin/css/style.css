@@ -1,0 +1,126 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #b0adad;
+}
+
+a, a:hover, a:visited {
+    color: #77b300;
+}
+
+h1, h2, h3, h4 {
+  color: #cccccc;
+  font-size: 250%;
+}
+
+table {
+    background-color: inherit;
+}
+
+.nav-pills>li+li {
+    margin-left: 5px;
+}
+
+.form-control {
+    background-color: #EAE6E6;
+    color: #000000;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: #77b300;
+    color: #f1f1f1;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #77b300;
+  margin-bottom: 5px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: -10px;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.icon-right {
+    margin-left: 15px;
+}
+
+.dashboard-menu {
+    list-style: none;
+    display: inline;
+    padding: 0px;
+}
+
+.dashboard-menu li {
+    float: left;
+    margin: 20px;
+    text-align: center;
+    width: 70px;
+}
+
+h1, h2, h3 {
+    font-size: 200%;
+}
+
+.add-new {
+    margin-top: -10px;
+}
+
+.help-tip {
+    font-size: 40%;
+    padding-top: 22px;
+    margin-top: -10px;
+}
+
+.info-hover {
+    color: #77b300;
+}
+
+.info-tip p {
+    margin-bottom: 0px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #77b300;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}
